@@ -56,7 +56,7 @@ The following APIs are available in the E-commerce Application:
 - Description: Retrieve all products from the db.
 - Response:
 - Status: 200 OK
-- Body: List of products
+- Body: List of products.
 
 ```bash
 [
