@@ -1,6 +1,6 @@
-# Ecommerce-API-App Using FAST Api
+# E-commerce-API-App Using FAST API
 
-This is an Ecommerce Application built with Python and FastAPI.
+This is an e-commerce application built with Python and FastAPI.
 
 ## Overview
 
