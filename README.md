@@ -14,12 +14,12 @@ The application uses a MongoDB database to store product and order data. Make su
 
 1. Clone the repository:
 ```bash
-https://github.com/hacky-tosh/CosmoCloud-Ecommerce-API
+https://github.com/goodchai0/FastApi_MongoDb
 ```
 
 3. Navigate to the project directory:
 ```bash
-cd CosmoCloud-Ecommerce-API
+cd FastApi_MongoDb
 ```
 
 4. Install the required dependencies:
@@ -34,13 +34,15 @@ pip install -r requirements.txt
 
 1. Start the FastAPI server:
 ```bash
-uvicorn main:app --reload
+python -m uvicorn main:app --reload
 ```
 2. Access the API endpoints in your preferred API testing tool or web browser.
 
 ## APIs
 
 The following APIs are available in the E-commerce Application:
+
+### You may use http://127.0.0.1:8000/docs#/ for swagger UI 
 
 ### Get All Products
 
