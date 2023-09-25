@@ -13,16 +13,19 @@ The application uses a MongoDB database to store product and order data. Make su
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 https://github.com/goodchai0/FastApi_MongoDb
 ```
 
 3. Navigate to the project directory:
+
 ```bash
 cd FastApi_MongoDb
 ```
 
 4. Install the required dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -33,16 +36,18 @@ pip install -r requirements.txt
 ## Usage
 
 1. Start the FastAPI server:
+
 ```bash
 python -m uvicorn main:app --reload
 ```
+
 2. Access the API endpoints in your preferred API testing tool or web browser.
 
 ## APIs
 
 The following APIs are available in the E-commerce Application:
 
-### You may use http://127.0.0.1:8000/docs#/ for swagger UI 
+### You may use http://127.0.0.1:8000/docs#/ for swagger UI
 
 ### Get All Products
 
@@ -50,8 +55,8 @@ The following APIs are available in the E-commerce Application:
 - Method: GET
 - Description: Retrieve all products from the db.
 - Response:
- - Status: 200 OK
- - Body: List of products
+- Status: 200 OK
+- Body: List of products
 
 ```bash
 [
@@ -72,11 +77,12 @@ The following APIs are available in the E-commerce Application:
 ]
 ```
 
-
 ### Create a New Order
+
 <br/>Endpoint: `api/orders`
 <br/>Method: POST
 <br/>Example Request:
+
 ```bash
 POST http://localhost:8000/api/orders
 Content-Type: application/json
@@ -104,9 +110,11 @@ Content-Type: application/json
 ```
 
 ### Get All Orders
+
 </br>Endpoint: `api/orders`
 </br>Method: GET
 </br>Example Request:
+
 ```bash
 [
     {
@@ -150,13 +158,16 @@ Content-Type: application/json
 ```
 
 ### Get Single Orders
+
 </br>Endpoint: `api/orders/<id>`
 </br>Method: GET
 
 ### Update Product
+
 </br>Endpoint: `api/products/<product_id:int>`
 </br>Method: GET
 </br>Example Request:
+
 ```bash
 PUT http://localhost:8000/api/products/1
 Content-Type: application/json
@@ -170,4 +181,3 @@ Content-Type: application/json
 }
 
 ```
-
