@@ -1,0 +1,17 @@
+anyio
+click
+colorama
+dnspython
+email-validator
+fastapi
+h11
+idna
+importlib-metadata
+pydantic
+pymongo
+python-dotenv
+sniffio
+starlette
+typing_extensions
+uvicorn
+zipp
